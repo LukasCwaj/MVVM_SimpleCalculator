@@ -1,0 +1,15 @@
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculator\bin\Debug\MVVM_SimpleCalculator.exe.config
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculator\bin\Debug\MVVM_SimpleCalculator.exe
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculator\bin\Debug\MVVM_SimpleCalculator.pdb
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculator\obj\Debug\App.g.cs
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculator\obj\Debug\MVVM_SimpleCalculator_MarkupCompile.cache
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculator\obj\Debug\MVVM_SimpleCalculator_MarkupCompile.lref
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculator\obj\Debug\MVVM_SimpleCalculator.g.resources
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculator\obj\Debug\MVVM_SimpleCalculator.Properties.Resources.resources
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculator\obj\Debug\MVVM_SimpleCalculator.csproj.GenerateResource.cache
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculator\obj\Debug\MVVM_SimpleCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculator\obj\Debug\MVVM_SimpleCalculator.exe
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculator\obj\Debug\MVVM_SimpleCalculator.pdb
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculator\obj\Debug\View\MainWindow.g.cs
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculator\obj\Debug\View\MainWindow.baml
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculator\obj\Debug\MVVM_SimpleCalculator.csprojAssemblyReference.cache

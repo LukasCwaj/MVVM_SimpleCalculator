@@ -1,0 +1,17 @@
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculatorTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculatorTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculatorTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculatorTests\bin\Debug\MVVM_SimpleCalculatorTests.dll
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculatorTests\bin\Debug\MVVM_SimpleCalculatorTests.pdb
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculatorTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculatorTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculatorTests\bin\Debug\MVVM_SimpleCalculator.exe
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculatorTests\bin\Debug\MVVM_SimpleCalculator.pdb
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculatorTests\bin\Debug\MVVM_SimpleCalculator.exe.config
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculatorTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculatorTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculatorTests\obj\Debug\MVVM_SimpleCalculatorTests.csprojAssemblyReference.cache
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculatorTests\obj\Debug\MVVM_SimpleCalculatorTests.csproj.CoreCompileInputs.cache
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculatorTests\obj\Debug\MVVM_SimpleCalculatorTests.csproj.CopyComplete
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculatorTests\obj\Debug\MVVM_SimpleCalculatorTests.dll
+C:\Users\Cwaniak\source\repos\MVVM_SimpleCalculator\MVVM_SimpleCalculatorTests\obj\Debug\MVVM_SimpleCalculatorTests.pdb
