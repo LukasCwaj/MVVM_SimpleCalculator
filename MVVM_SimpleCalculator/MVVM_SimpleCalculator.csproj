@@ -54,6 +54,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Calculation\Addition.cs" />
+    <Compile Include="Calculation\CalculationClassFactory.cs" />
+    <Compile Include="Calculation\Division.cs" />
+    <Compile Include="Calculation\ICalculable.cs" />
+    <Compile Include="Calculation\Multiplication.cs" />
+    <Compile Include="Calculation\Substraction.cs" />
     <Compile Include="Command\RelayCommand.cs" />
     <Compile Include="ViewModel\CalculatorViewModel.cs" />
     <Page Include="View\MainWindow.xaml">

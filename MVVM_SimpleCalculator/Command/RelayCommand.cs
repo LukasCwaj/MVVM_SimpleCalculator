@@ -7,6 +7,7 @@ using System.Windows.Input;
 
 namespace MVVM_SimpleCalculator.Command
 {
+    #region RelayCommand
     //Used to execute all command and verify is possible to execute
     class RelayCommand : ICommand
     {
@@ -30,6 +31,7 @@ namespace MVVM_SimpleCalculator.Command
             {
                 return true;
             }
+
             else
             {
                 return canExecute(parameter);
@@ -42,6 +44,7 @@ namespace MVVM_SimpleCalculator.Command
             {
                 CommandManager.RequerySuggested += value;
             }
+
             remove
             {
                 CommandManager.RequerySuggested -= value;
@@ -53,4 +56,5 @@ namespace MVVM_SimpleCalculator.Command
             executeAction(parameter);
         }
     }
+    #endregion 
 }

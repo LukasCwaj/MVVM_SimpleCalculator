@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using System.Windows;
+using MVVM_SimpleCalculator.Calculation;
 
 namespace MVVM_SimpleCalculator.ViewModel
 {
@@ -31,10 +32,18 @@ namespace MVVM_SimpleCalculator.ViewModel
             get { return calculation; }
             set { calculation = value; }
         }
+        private CalculationClassFactory calculationClass;
+
+        public CalculationClassFactory CalculationClass
+        {
+            get { return calculationClass; }
+            set { calculationClass = value; }
+        }
 
         public CalculatorViewModel()
         {
             Calculation = new Calculator();
+            CalculationClass = new CalculationClassFactory();
         }
 
         public double? Calculation1
@@ -72,7 +81,8 @@ namespace MVVM_SimpleCalculator.ViewModel
 
         private void AddExecute(object parameter)
         {
-            Calculation3 = calculation.Addition(Calculation1, Calculation2);
+            ICalculable operationClass = calculationClass.GetOperationClass("add");
+            Calculation3 = operationClass.Calculate(Calculation1, Calculation2);
             SendMessage();
         }
 
@@ -91,7 +101,8 @@ namespace MVVM_SimpleCalculator.ViewModel
 
         private void SubstractExecute(object parameter)
         {
-            Calculation3 = calculation.Substraction(Calculation1, Calculation2);
+            ICalculable operationClass = calculationClass.GetOperationClass("substract");
+            Calculation3 = operationClass.Calculate(Calculation1, Calculation2);
             SendMessage();
         }
 
@@ -111,10 +122,12 @@ namespace MVVM_SimpleCalculator.ViewModel
         {
             try
             {
-                Calculation3 = calculation.Division(Calculation1, Calculation2);
+                ICalculable operationClass = calculationClass.GetOperationClass("divide");
+                Calculation3 = operationClass.Calculate(Calculation1, Calculation2);
                 SendMessage();
             }
-            catch (Exception e)
+
+            catch (Exception)
             {
             }
         }
@@ -133,7 +146,8 @@ namespace MVVM_SimpleCalculator.ViewModel
         }
         private void MultiplyExecute(object parameter)
         {
-            Calculation3 = calculation.Multiplication(Calculation1, Calculation2);
+            ICalculable operationClass = calculationClass.GetOperationClass("multiply");
+            Calculation3 = operationClass.Calculate(Calculation1, Calculation2);
             SendMessage();
         }
 
@@ -163,6 +177,7 @@ namespace MVVM_SimpleCalculator.ViewModel
             {
                 return true;
             }
+
             else
             {
                 return false;
@@ -171,28 +186,28 @@ namespace MVVM_SimpleCalculator.ViewModel
         #endregion
 
         #region message after execute comand
-        public void SendMessage()
+        private void SendMessage()
         {
             MessageBoxResult wantToContinue = MessageBox.Show("Would you like to continue?", 
                                                               "Caution", MessageBoxButton.YesNo);
             switch (wantToContinue)
             {
                 case MessageBoxResult.Yes:
-                    this.wantToContinue(true);
+                    this.WantToContinue(true);
                     break;
                 case MessageBoxResult.No:
-                    this.wantToContinue(false);
+                    this.WantToContinue(false);
                     break;
                 default:
                     break;
             }
         }
 
-        public void wantToContinue(bool wantContinue)
+        private void WantToContinue(bool wantContinue)
         {
             if (wantContinue)
             {
-                Calculation1 = Calculation3;
+                Calculation1 = Math.Round((double)Calculation3,2);
                 Calculation2 = null;
                 Calculation3 = null;
             }
